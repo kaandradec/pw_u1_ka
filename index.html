@@ -1,15 +1,136 @@
 <!DOCTYPE html> <!--Cualquier comentario-->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8"> <!--Define la codificacion  de caracteres de mi pagina seb, el standar de facto es UTF-8-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sirve para páginas web responsivas-->
     <title>Mi primera página web</title> <!--Titulo de la página-->
 </head>
+
 <body><!--Contenido visual de mi página web, texto images, colores...-->
-    <h1>Mi primera página web</h1>
-    <h3>Carrera de Computación</h3>
-    <h6>Kevin Andrade</h6>
-    <p>Este es el primer parrafo de mi página web</p>
-    <button>Aceptar</button>
+    <header>
+        <h1>Universidad Central del Ecuador</h1>
+        <h3>Carrera de Computación</h3>
+    </header>
+    <nav></nav>
+    <section>
+        <!-- Cabeceras de secciones -->
+        <h1>Mi primera página web</h1>
+        <h6>Kevin Andrade</h6>
+
+        <!-- Parrafos -->
+        <p>Este es el primer parrafo de mi página web</p>
+        <span>Parrafos mas cortos</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, veniam voluptatum? Unde maxime dolor vel ipsam
+            officia. Iusto earum suscipit corrupti eaque beatae molestiae.</p>
+        <!-- textos -->
+        <strong>Texto de importancia a resaltar</strong>
+        <br>
+        <b>Textos que no quiero darle relevancia</b>
+        <br>
+        <em>Texto en cursiva con importancia</em>
+        <br>
+        <i>Texto en cursiva</i>
+        <br>
+        <u>Texto subrayado</u>
+        <br>
+        <s>Texto eliminado</s>
+        <br>
+        <mark>Texto resaltado</mark>
+        <br>
+
+        <!-- Listas -->
+        <ul>
+            <li>Ventas</li>
+            <li>Compras</li>
+            <li>Inventario</li>
+        </ul>
+
+        <ol>
+            <li>Ventas</li>
+            <li>Compras</li>
+            <li>Inventario</li>
+        </ol>
+
+        <!-- Tablas -->
+        <table border="1">
+            <thead>
+                <!-- tr siempre es primero y representa un fila -->
+                <tr>
+                    <!-- Aqui como contenido de la fila declaro todas las columnas -->
+                    <ht>#</ht>
+                    <ht>Nombre</ht>
+                    <ht>Apellido</ht>
+                    <ht>CI</ht>
+                    <ht>Género</ht>
+                    <ht>Acción</ht>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Por cada fila es un elemento html TR -->
+                <tr>
+                    <td>1</td>
+                    <td>Kevin</td>
+                    <td>Andrade</td>
+                    <td>0402068555</td>
+                    <td>Masculino</td>
+                    <td><button>Editar</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Daniela</td>
+                    <td>Teran</td>
+                    <td>1759802548</td>
+                    <td>Femenino</td>
+                    <td><button>Editar</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Contenedores (Elementos que agrupan contenido en comun)-->
+        <!-- Son contenedores tambien: header nav section...-->
+        <div></div>
+
+        <!-- Formularios -->
+        <form action="">
+            <label for="id_nombre">Nombre</label>
+            <input type="text" id="id_nombre">
+            <br>
+            <label for="id_password">Password</label>
+            <input type="password" id="id_password">
+            <br>
+            <label for="id_fecha">Fecha Nacimiento</label>
+            <input type="date" id="id_fecha">
+            <br>
+            <label for="id_edad">Edad</label>
+            <input type="number" id="id_edad">
+            <br>
+            <button>Guardar</button>
+        </form>
+
+        <br>
+
+        <!-- Multimedia -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
+            alt="No se puede visualizar" width="140" height="120">
+        <!-- <video src=""></video> Deprecado-->
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+
+        <br>
+
+        <button>Aceptar</button>
+    </section>
+
+    <aside></aside>
+
+    <footer>
+        <h3>Todos los derechos reservados</h3>
+    </footer>
+
 </body>
+
 </html>
