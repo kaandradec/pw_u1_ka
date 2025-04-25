@@ -18,21 +18,23 @@
 
     <section>
         <div id="id_espacio"></div>
-        <label for="" id="id_label_1">Numero 1</label>
-        <input type="number" id="id_numero_1">
+        <label id="id_label_1">Numero 1</label>
+        <input id="id_numero_1">
         <br>
 
-        <label for="" id="id_label_2">Numero</label>
-        <input type="number" id="id_numero_2">
+        <label id="id_label_2">Numero 2</label>
+        <input id="id_numero_2">
         <br>
 
-        <button onclick="cambiarColor('id_label_1', 'red')">Cambiar Color 1</button>
-        <button onclick="cambiarColor('id_label_2', 'green')">Cambiar Color 2</button>
+        <p id="id_resultado">Resultado: </p>
+        <br>
 
-        <button onclick="agregarBoton()">Agregar elemento</button>
+        <button onclick="evaluarOperacion('+')">Sumar</button>
+        <button onclick="evaluarOperacion('-')">Restar</button>
+        <button onclick="evaluarOperacion('*')">Multiplicar</button>
+        <button onclick="evaluarOperacion('/')">Dividir</button>
 
-        <button id="id_error">Error</button>
-        <button onclick="eliminar('id_error')">Eliminar</button>
+        <button onclick="fundamentos()">Fundamentos de JS</button>
 
     </section>
 
