@@ -4,7 +4,7 @@ function guardar() {
 
 function validar() {
 
-    let nombre = document.getElementById("id_nombre").ariaValueMax;
+    let nombre = document.getElementById("id_nombre").value;
 
     if (nombre === "") {
         console.log('Error: No se ha ingresado el nombre');
