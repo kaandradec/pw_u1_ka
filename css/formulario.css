@@ -75,3 +75,16 @@ form>div {
     display: flex;
     justify-content: center;
 }
+
+.mensaje {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mensaje-exito {
+    color: green;
+}
+
+.mensaje-error {
+    color: red;
+}
